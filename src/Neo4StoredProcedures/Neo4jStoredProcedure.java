@@ -6,7 +6,12 @@
  */
 package Neo4StoredProcedures;
 import java.io.File;
+import java.sql.Time;
 import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -14,12 +19,15 @@ import java.util.Map;
 
 import org.neo4j.cypher.javacompat.ExecutionEngine;
 import org.neo4j.cypher.javacompat.ExecutionResult;
+import org.neo4j.graphdb.Direction;
 import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.Relationship;
 import org.neo4j.graphdb.RelationshipType;
 import org.neo4j.graphdb.Transaction;
 import org.neo4j.graphdb.factory.GraphDatabaseFactory;
 import org.neo4j.kernel.EmbeddedGraphDatabase;
+
+import scala.annotation.target.param;
 
 public class Neo4jStoredProcedure {
 
@@ -105,14 +113,14 @@ public class Neo4jStoredProcedure {
 
 	}
 
-	public boolean addPageToDatabase(String p_source,String p_destination,String p_source_link,String p_destination_link){
+	public boolean addPageToDatabase(String p_source_title,String p_destination_title,String p_source_link,String p_destination_link){
 		
 		boolean state=false;
 		Long source_id;
 		Long destination_id;
 		
-		source_id=this.isExists(p_source_link);
-		destination_id=this.isExists(p_destination_link);
+		source_id=this.isExists(p_source_title);
+		destination_id=this.isExists(p_destination_title);
 		Node source;
 		Node destination;
 		Relationship rel;
@@ -123,10 +131,10 @@ public class Neo4jStoredProcedure {
 				
 				source=this.graphDb.createNode();
 				source.setProperty("link", p_source_link);
-				source.setProperty("name", p_source);
+				source.setProperty("title", p_source_title);
 				destination=this.graphDb.createNode();
 				destination.setProperty("link", p_destination_link);
-				destination.setProperty("name", p_destination);
+				destination.setProperty("title", p_destination_title);
 				rel=source.createRelationshipTo(destination, RelTypes.LeadsTo);
 				rel.setProperty("timestamp", new Timestamp(new Date().getTime()).toString());
 				rel=this.startNode.createRelationshipTo(source, RelTypes.LeadsTo);
@@ -150,7 +158,7 @@ public class Neo4jStoredProcedure {
 			try{
 			source=this.graphDb.createNode();
 			source.setProperty("link", p_source_link);
-			source.setProperty("name", p_source);
+			source.setProperty("title", p_source_title);
 			destination=this.getNodeByID(destination_id);
 			rel=source.createRelationshipTo(destination, RelTypes.LeadsTo);
 			rel=this.startNode.createRelationshipTo(source, RelTypes.LeadsTo);
@@ -176,7 +184,7 @@ public class Neo4jStoredProcedure {
 			
 				destination=this.graphDb.createNode();
 				destination.setProperty("link", p_destination_link);
-				destination.setProperty("name", p_destination);
+				destination.setProperty("title", p_destination_title);
 				source=this.getNodeByID(source_id);
 				rel=source.createRelationshipTo(destination, RelTypes.LeadsTo);
 				tx.success();
@@ -203,19 +211,121 @@ public class Neo4jStoredProcedure {
 		return state;
 	}
 	
+	
+
+public boolean addPageToDatabase(String p_source_title,String p_destination_title){
+		
+		boolean state=false;
+		Long source_id;
+		Long destination_id;
+		
+		source_id=this.isExists(p_source_title);
+		destination_id=this.isExists(p_destination_title);
+		Node source;
+		Node destination;
+		Relationship rel;
+		if(source_id==null && destination_id==null){
+			
+			Transaction tx=this.graphDb.beginTx();
+			try{
+				
+				source=this.graphDb.createNode();
+				source.setProperty("title", p_source_title);
+				destination=this.graphDb.createNode();
+				destination.setProperty("title", p_destination_title);
+				rel=source.createRelationshipTo(destination, RelTypes.LeadsTo);
+				rel.setProperty("timestamp", new Timestamp(new Date().getTime()).toString());
+				rel=this.startNode.createRelationshipTo(source, RelTypes.LeadsTo);
+				rel.setProperty("timestamp", new Timestamp(new Date().getTime()).toString());
+				tx.success();
+				state=true;
+			}catch(Exception e){
+				System.out.println("Error occured in the addPageToDatabase");
+				tx.failure();
+				state=false;
+			}finally{
+				tx.finish();
+			}
+		
+			
+			
+		}else if(source_id==null && destination_id!=null){
+			
+			Transaction tx=this.graphDb.beginTx();
+			
+			try{
+			source=this.graphDb.createNode();
+			source.setProperty("title", p_source_title);
+			destination=this.getNodeByID(destination_id);
+			rel=source.createRelationshipTo(destination, RelTypes.LeadsTo);
+			rel=this.startNode.createRelationshipTo(source, RelTypes.LeadsTo);
+			rel=source.createRelationshipTo(destination, RelTypes.LeadsTo);
+			tx.success();
+			state=true;
+			}catch(Exception e){
+				System.out.println("Error occured in the addPageToDatabase");
+				tx.failure();
+			    state=false;	
+				
+			}finally{
+				
+				tx.finish();
+			}
+			
+			
+			
+		}else if(destination_id==null && source_id!=null){
+			
+			Transaction tx=this.graphDb.beginTx();
+			try{
+			
+				destination=this.graphDb.createNode();
+				destination.setProperty("title", p_destination_title);
+				source=this.getNodeByID(source_id);
+				rel=source.createRelationshipTo(destination, RelTypes.LeadsTo);
+				tx.success();
+				state=true;
+				
+			
+			}catch(Exception e){
+				System.out.println("Error occured in the addPageToDatabase");
+				tx.failure();
+			    state=false;	
+				
+			}finally{
+				
+				tx.finish();
+			}
+			
+			
+			
+		}else{
+			System.out.println("Both source and Destination is exists in the database...");
+			state=true;
+		}
+		
+		return state;
+	}
+
+	
+	
+	
+	
+	
+	
 	private static enum RelTypes implements RelationshipType {
 		LeadsTo
 
 	}
 
 	
-	public Long isExists(String p_link){
+	public Long isExists(String p_source){
 		
 		Map<String, Object> params = new HashMap<String, Object>();
 		params.clear();
 		params.put("start_node_id", this.startNode.getId());
-		params.put("p_link",p_link);
-     	String cypherquerry="START n=NODE({start_node_id}) MATCH n-[:LeadsTo*]->data WHERE data.link={p_link} RETURN data;";
+		params.put("p_source",p_source);
+     	String cypherquerry="START n=NODE({start_node_id}) MATCH n-[:LeadsTo*]->data WHERE data.title={p_source} RETURN data;";
      	result=execute_eng.execute(cypherquerry, params);
      	Iterator<Node> iterator=result.columnAs("data");
      	Node data;
