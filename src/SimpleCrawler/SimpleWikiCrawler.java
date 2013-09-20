@@ -207,12 +207,18 @@ public class SimpleWikiCrawler {
 	public static void main(String[] args) {
 
 		SimpleWikiCrawler htp = new SimpleWikiCrawler(2);
+		
 		htp.setDBName("testDB");
+		
+		// DB_Handler initialized
+		htp.DB_Handler.CreateDatabase();
+
 		try {
 			htp.navigate(new URLOb(
 					"http://en.wikipedia.org/wiki/Campaign_of_Danture", 0));
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}
+		
 	}
 }
