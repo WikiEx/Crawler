@@ -209,8 +209,7 @@ public class SimpleWikiCrawler {
 		SimpleWikiCrawler htp = new SimpleWikiCrawler(2);
 		
 		htp.setDBName("testDB");
-		
-		// DB_Handler initialized
+		// create an instance of Database
 		htp.DB_Handler.CreateDatabase();
 
 		try {
