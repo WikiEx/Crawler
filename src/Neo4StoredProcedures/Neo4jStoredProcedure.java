@@ -6,12 +6,7 @@
  */
 package Neo4StoredProcedures;
 import java.io.File;
-import java.sql.Time;
 import java.sql.Timestamp;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -19,15 +14,12 @@ import java.util.Map;
 
 import org.neo4j.cypher.javacompat.ExecutionEngine;
 import org.neo4j.cypher.javacompat.ExecutionResult;
-import org.neo4j.graphdb.Direction;
 import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.Relationship;
 import org.neo4j.graphdb.RelationshipType;
 import org.neo4j.graphdb.Transaction;
 import org.neo4j.graphdb.factory.GraphDatabaseFactory;
 import org.neo4j.kernel.EmbeddedGraphDatabase;
-
-import scala.annotation.target.param;
 
 public class Neo4jStoredProcedure {
 
@@ -320,6 +312,7 @@ public boolean addPageToDatabase(String p_source_title,String p_destination_titl
 
 	
 	public Long isExists(String p_source){
+				
 		
 		Map<String, Object> params = new HashMap<String, Object>();
 		params.clear();

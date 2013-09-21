@@ -1,3 +1,10 @@
+/** @author dracus
+
+ * This class contains the major crawler functionalities
+ * */
+
+
+package SimpleCrawler;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -8,30 +15,34 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+/**use of Milinda's Neo4j Storage class*/
+
 import Neo4StoredProcedures.Neo4jStoredProcedure;
 
 //import java.util.List;
 
-class URLOb {
+/**
+ * Create Class "URLOb for ease of handling degrees and associated links.
+ * Simplifies the process
+ * */
 
+class URLOb {
+	/* Using public members for now! Take care!! */
 	public URL Url;
 	public int Degree;
-	
 
+	/* Overloading the constructor for future versatility. */
 	public URLOb(URL url, int degree) {
 		Url = url;
 		Degree = degree;
-
 	}
 
 	public URLOb(URL url) {
-
 		Url = url;
 		Degree = 0;
 	}
 
 	public URLOb(String url, int deg) throws MalformedURLException {
-
 		Url = new URL(url);
 		Degree = deg;
 	}
@@ -43,49 +54,57 @@ class URLOb {
 
 }
 
-class SimpleWikiCrawler {
+public class SimpleWikiCrawler {
 
-	private ArrayList<URLOb> visited, OutGoing;
+	private ArrayList<URLOb>  OutGoing;
 
 	int degree = 0;
 	boolean done;
-	private int maxDegree;
+	private int maxDegree;// maximum degree that the crawler will crawl to. 
 	private Neo4jStoredProcedure DB_Handler;
 	String DB_NAME;
+
 	
-	public void setDBName(String dbn){
-		
-		this.DB_NAME=dbn;
+	public void setDBName(String dbn) {
+/**
+ * Use this method to set the Name of the Neo4j Database you want the
+ * graph to be stored to */
+		this.DB_NAME = dbn;
 		DB_Handler.SetDatabase(dbn);
 	}
-
+/*Overloaded constructors*/
 	public SimpleWikiCrawler(String DB) {
-		visited = new ArrayList<URLOb>();
+		//visited = new ArrayList<URLOb>();
 		OutGoing = new ArrayList<URLOb>();
-		this.DB_NAME=DB;
-		
-		DB_Handler=new Neo4jStoredProcedure();
+		this.DB_NAME = DB;
+
+		DB_Handler = new Neo4jStoredProcedure();
 		DB_Handler.SetDatabase(DB);
 	}
 
 	public SimpleWikiCrawler(int MaxDegs) {
-		visited = new ArrayList<URLOb>();
+		//visited = new ArrayList<URLOb>();
 		OutGoing = new ArrayList<URLOb>();
 		this.maxDegree = MaxDegs;
-		DB_Handler=new Neo4jStoredProcedure();
+		DB_Handler = new Neo4jStoredProcedure();
 	}
 
 	public void SetMaxDegree(int max) {
-		visited = new ArrayList<URLOb>();
+		//visited = new ArrayList<URLOb>();
 		OutGoing = new ArrayList<URLOb>();
 		this.maxDegree = max;
 	}
 
+	private String getTitle(URLOb urlob){
+		String temp= urlob.Url.toString();
+		String lastTitle=temp.substring((temp.lastIndexOf("/")+1));
+		return lastTitle;
+	}
 	public void navigate(URLOb url) {
-		System.out.println(url.Url.toString()+" Degree: "+url.Degree);
-		visited.add(url);
+		System.out.println(url.Url.toString() + " Degree: " + url.Degree);
+		//visited.add(url);
 		int tempdeg = url.Degree;
-		if (done||tempdeg > this.maxDegree)
+		if (done || tempdeg > this.maxDegree)
 			return;
 		String urstring = url.Url.toString();
 		try {
@@ -111,13 +130,14 @@ class SimpleWikiCrawler {
 							&& !ln.attr("href").startsWith("#")
 							&& ln.attr("href").startsWith("/wiki")
 							&& !IsInParantheses(ln.text(), t.text())) {
-//						System.out.println(ln.text() + " " + ln.attr("href")
-//								+ " Degree: " + (tempdeg + 1));
+						// System.out.println(ln.text() + " " + ln.attr("href")
+						// + " Degree: " + (tempdeg + 1));
 						if (ln.attr("href").length() != 0)
 							found = 1;
-						OutGoing.add(new URLOb(("https://en.wikipedia.org" + ln
-								.attr("href")), (tempdeg + 1)));
-						//TODO addNodeToGraph();
+						URLOb tempNext=new URLOb(("https://en.wikipedia.org" + ln
+								.attr("href")), (tempdeg + 1));
+						OutGoing.add(tempNext);
+						addNodeToGraph(getTitle(url), getTitle(tempNext));
 					}
 
 				}
@@ -129,11 +149,11 @@ class SimpleWikiCrawler {
 			URLOb next = OutGoing.remove(0);
 
 			while (next.Degree > this.maxDegree) {
-				try{
+				try {
 					next = OutGoing.remove(0);
-				}catch(IndexOutOfBoundsException e){
+				} catch (IndexOutOfBoundsException e) {
 					System.out.println("Finished!!!");
-					done=true;
+					done = true;
 					System.exit(0);
 				}
 			}
@@ -141,15 +161,7 @@ class SimpleWikiCrawler {
 			if (next.Degree <= this.maxDegree) {
 
 				navigate(next);
-
-				// add to graph and navigate next
-
-				/*
-				 * while(visited.contains(next)){ } next=OutGoing.remove(0); }
-				 * if(!visited.contains(next)){ navigate(next); }else {
-				 * System.out.println("End!"); }
-				 */
-
+				
 			} else
 				return;
 
@@ -158,7 +170,7 @@ class SimpleWikiCrawler {
 		}
 	}
 
-	public boolean IsInParantheses(String Title, String Text) {
+	private boolean IsInParantheses(String Title, String Text) {
 		boolean flag = false;
 		int pcount = 0;
 		for (int i = 0; i < Text.length(); i++) {
@@ -187,18 +199,25 @@ class SimpleWikiCrawler {
 		return flag;
 	}
 
-	public void addNodeToGraph(String s_text,String s_link, String d_text, String d_link) {
-		
+	public void addNodeToGraph(String s_text, String d_text) {
+		DB_Handler.addPageToDatabase(s_text, d_text);
 	}
 
+	// The main method is for trying out the crawler. 
 	public static void main(String[] args) {
 
 		SimpleWikiCrawler htp = new SimpleWikiCrawler(2);
+		
+		htp.setDBName("testDB");
+		// create an instance of Database
+		htp.DB_Handler.CreateDatabase();
+
 		try {
 			htp.navigate(new URLOb(
 					"http://en.wikipedia.org/wiki/Campaign_of_Danture", 0));
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}
+		
 	}
 }

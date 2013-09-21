@@ -1,0 +1,50 @@
+9/21/13 11:53:48 AM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/21/13 11:53:49 AM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+11:53:49.335 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/21/13 11:53:53 AM org.neo4j.server.database.Database INFO: Successfully started database
+9/21/13 11:53:53 AM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+9/21/13 11:53:53 AM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+9/21/13 11:53:53 AM org.neo4j.server.AbstractNeoServer INFO: No SSL certificate found, generating a self-signed certificate..
+9/21/13 11:53:54 AM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+9/21/13 11:53:54 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+9/21/13 11:53:54 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+9/21/13 11:53:54 AM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+9/21/13 11:53:54 AM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+9/21/13 11:53:54 AM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+11:53:54.791 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+9/21/13 11:53:54 AM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+11:53:54.851 [main] INFO  org.mortbay.log - jetty-6.1.25
+11:53:54.927 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+11:53:55.963 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+11:53:56.355 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+9/21/13 11:53:56 AM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+9/21/13 11:54:07 AM org.neo4j.server.webadmin.rest.console.SessionFactoryImpl INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+9/21/13 11:55:04 AM org.neo4j.server.CommunityBootstrapper INFO: Neo4j Server shutdown initiated by kill signal
+11:55:04.089 [Thread-8] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+11:55:04.090 [Thread-8] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+9/21/13 11:55:55 AM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/21/13 11:55:55 AM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+11:55:56.081 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/21/13 11:55:57 AM org.neo4j.server.database.Database INFO: Successfully started database
+9/21/13 11:55:57 AM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+9/21/13 11:55:57 AM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+9/21/13 11:55:58 AM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+9/21/13 11:55:58 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+9/21/13 11:55:58 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+9/21/13 11:55:58 AM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+9/21/13 11:55:58 AM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+9/21/13 11:55:58 AM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+11:55:58.427 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+9/21/13 11:55:58 AM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+11:55:58.519 [main] INFO  org.mortbay.log - jetty-6.1.25
+11:55:58.627 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+11:55:59.701 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+11:56:00.168 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+9/21/13 11:56:00 AM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+9/21/13 11:56:07 AM org.neo4j.server.webadmin.rest.console.SessionFactoryImpl INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
