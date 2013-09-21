@@ -594,3 +594,4 @@ Storage files: (filename : modification date - size)
 2013-09-21 06:25:58.400+0000 INFO  [o.n.k.i.DiagnosticsManager]: Mounted webadmin at: /webadmin
 2013-09-21 06:26:00.172+0000 INFO  [o.n.k.i.DiagnosticsManager]: Server started on: http://localhost:7474/
 2013-09-21 06:26:00.174+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED END ---
+2013-09-21 06:49:00.040+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 692831ms [total block time: 692.831s]
