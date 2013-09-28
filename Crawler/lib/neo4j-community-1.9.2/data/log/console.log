@@ -1,0 +1,661 @@
+9/21/13 11:53:48 AM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/21/13 11:53:49 AM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+11:53:49.335 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/21/13 11:53:53 AM org.neo4j.server.database.Database INFO: Successfully started database
+9/21/13 11:53:53 AM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+9/21/13 11:53:53 AM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+9/21/13 11:53:53 AM org.neo4j.server.AbstractNeoServer INFO: No SSL certificate found, generating a self-signed certificate..
+9/21/13 11:53:54 AM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+9/21/13 11:53:54 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+9/21/13 11:53:54 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+9/21/13 11:53:54 AM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+9/21/13 11:53:54 AM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+9/21/13 11:53:54 AM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+11:53:54.791 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+9/21/13 11:53:54 AM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+11:53:54.851 [main] INFO  org.mortbay.log - jetty-6.1.25
+11:53:54.927 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+11:53:55.963 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+11:53:56.355 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+9/21/13 11:53:56 AM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+9/21/13 11:54:07 AM org.neo4j.server.webadmin.rest.console.SessionFactoryImpl INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+9/21/13 11:55:04 AM org.neo4j.server.CommunityBootstrapper INFO: Neo4j Server shutdown initiated by kill signal
+11:55:04.089 [Thread-8] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+11:55:04.090 [Thread-8] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+9/21/13 11:55:55 AM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/21/13 11:55:55 AM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+11:55:56.081 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/21/13 11:55:57 AM org.neo4j.server.database.Database INFO: Successfully started database
+9/21/13 11:55:57 AM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+9/21/13 11:55:57 AM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+9/21/13 11:55:58 AM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+9/21/13 11:55:58 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+9/21/13 11:55:58 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+9/21/13 11:55:58 AM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+9/21/13 11:55:58 AM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+9/21/13 11:55:58 AM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+11:55:58.427 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+9/21/13 11:55:58 AM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+11:55:58.519 [main] INFO  org.mortbay.log - jetty-6.1.25
+11:55:58.627 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+11:55:59.701 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+11:56:00.168 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+9/21/13 11:56:00 AM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+9/21/13 11:56:07 AM org.neo4j.server.webadmin.rest.console.SessionFactoryImpl INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+9/26/13 11:56:45 PM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/26/13 11:56:45 PM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+Detected incorrectly shut down database, performing recovery..
+23:56:45.982 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/26/13 11:56:50 PM org.neo4j.server.database.Database INFO: Successfully started database
+9/26/13 11:56:50 PM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+9/26/13 11:56:50 PM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+9/26/13 11:56:51 PM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+9/26/13 11:56:51 PM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+9/26/13 11:56:51 PM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+9/26/13 11:56:51 PM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+9/26/13 11:56:51 PM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+9/26/13 11:56:51 PM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+23:56:52.005 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+9/26/13 11:56:52 PM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+23:56:52.110 [main] INFO  org.mortbay.log - jetty-6.1.25
+23:56:52.202 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+23:56:53.401 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+23:56:53.500 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+9/26/13 11:56:53 PM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+9/26/13 11:56:58 PM org.neo4j.server.webadmin.rest.console.SessionFactoryImpl INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+9/26/13 11:59:03 PM org.neo4j.server.CommunityBootstrapper INFO: Neo4j Server shutdown initiated by kill signal
+23:59:03.942 [Thread-9] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+23:59:03.943 [Thread-9] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.transaction.XaDataSourceManager@4a6ccc' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:178)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:635)
+	at org.neo4j.server.database.CommunityDatabase.stop(CommunityDatabase.java:76)
+	at org.neo4j.server.AbstractNeoServer.stopDatabase(AbstractNeoServer.java:501)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:453)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:167)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource@a01711' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.impl.transaction.XaDataSourceManager.stop(XaDataSourceManager.java:149)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 7 more
+Caused by: java.lang.RuntimeException: java.io.IOException: Logical log[data/WikiEx.db/nioneo_logical.log.1] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:72)
+	at org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource.stop(NeoStoreXaDataSource.java:301)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 10 more
+Caused by: java.io.IOException: Logical log[data/WikiEx.db/nioneo_logical.log.1] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.renameLogFileToRightVersion(XaLogicalLog.java:641)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.close(XaLogicalLog.java:709)
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:68)
+	... 12 more
+org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.extension.KernelExtensions@172cbae' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:178)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:635)
+	at org.neo4j.server.database.CommunityDatabase.stop(CommunityDatabase.java:76)
+	at org.neo4j.server.AbstractNeoServer.stopDatabase(AbstractNeoServer.java:501)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:453)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:167)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.index.lucene.LuceneKernelExtension@196e397' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.extension.KernelExtensions.stop(KernelExtensions.java:119)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 7 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.index.impl.lucene.LuceneDataSource@1e04033' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:530)
+	at org.neo4j.kernel.lifecycle.LifeSupport.remove(LifeSupport.java:330)
+	at org.neo4j.kernel.impl.transaction.XaDataSourceManager.unregisterDataSource(XaDataSourceManager.java:234)
+	at org.neo4j.index.lucene.LuceneKernelExtension.stop(LuceneKernelExtension.java:99)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 10 more
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: data/WikiEx.db/index/lucene.log.active (No such file or directory)
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:72)
+	at org.neo4j.index.impl.lucene.LuceneDataSource.stop(LuceneDataSource.java:307)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 15 more
+Caused by: java.io.FileNotFoundException: data/WikiEx.db/index/lucene.log.active (No such file or directory)
+	at java.io.RandomAccessFile.open(Native Method)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:233)
+	at org.neo4j.kernel.DefaultFileSystemAbstraction.open(DefaultFileSystemAbstraction.java:53)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.setActiveLog(XaLogicalLog.java:1480)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.close(XaLogicalLog.java:704)
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:68)
+	... 17 more
+9/27/13 12:33:14 AM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 12:33:15 AM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+Detected incorrectly shut down database, performing recovery..
+00:33:15.507 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 12:33:16 AM org.neo4j.server.CommunityBootstrapper SEVERE: 
+java.lang.RuntimeException: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.StoreLockerLifecycleAdapter@ca3783' was successfully initialized, but failed to start. Please see attached cause exception.
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.run(InternalAbstractGraphDatabase.java:281)
+	at org.neo4j.kernel.EmbeddedGraphDatabase.<init>(EmbeddedGraphDatabase.java:106)
+	at org.neo4j.graphdb.factory.GraphDatabaseFactory$1.newDatabase(GraphDatabaseFactory.java:88)
+	at org.neo4j.graphdb.factory.GraphDatabaseBuilder.newGraphDatabase(GraphDatabaseBuilder.java:207)
+	at org.neo4j.kernel.impl.recovery.StoreRecoverer.recover(StoreRecoverer.java:114)
+	at org.neo4j.server.preflight.PerformRecoveryIfNecessary.run(PerformRecoveryIfNecessary.java:59)
+	at org.neo4j.server.preflight.PreFlightTasks.run(PreFlightTasks.java:70)
+	at org.neo4j.server.AbstractNeoServer.runPreflightTasks(AbstractNeoServer.java:280)
+	at org.neo4j.server.AbstractNeoServer.start(AbstractNeoServer.java:160)
+	at org.neo4j.server.Bootstrapper.start(Bootstrapper.java:86)
+	at org.neo4j.server.Bootstrapper.main(Bootstrapper.java:49)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.StoreLockerLifecycleAdapter@ca3783' was successfully initialized, but failed to start. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:497)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:104)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.run(InternalAbstractGraphDatabase.java:259)
+	... 10 more
+Caused by: org.neo4j.kernel.StoreLockException: Could not create lock file
+	at org.neo4j.kernel.StoreLocker.checkLock(StoreLocker.java:74)
+	at org.neo4j.kernel.StoreLockerLifecycleAdapter.start(StoreLockerLifecycleAdapter.java:40)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:491)
+	... 12 more
+9/27/13 12:33:16 AM org.neo4j.server.CommunityBootstrapper SEVERE: Failed to start Neo Server on port [7474]
+9/27/13 12:33:26 AM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 12:33:26 AM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+Detected incorrectly shut down database, performing recovery..
+00:33:26.721 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 12:33:27 AM org.neo4j.server.CommunityBootstrapper SEVERE: 
+java.lang.RuntimeException: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.StoreLockerLifecycleAdapter@1672bbb' was successfully initialized, but failed to start. Please see attached cause exception.
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.run(InternalAbstractGraphDatabase.java:281)
+	at org.neo4j.kernel.EmbeddedGraphDatabase.<init>(EmbeddedGraphDatabase.java:106)
+	at org.neo4j.graphdb.factory.GraphDatabaseFactory$1.newDatabase(GraphDatabaseFactory.java:88)
+	at org.neo4j.graphdb.factory.GraphDatabaseBuilder.newGraphDatabase(GraphDatabaseBuilder.java:207)
+	at org.neo4j.kernel.impl.recovery.StoreRecoverer.recover(StoreRecoverer.java:114)
+	at org.neo4j.server.preflight.PerformRecoveryIfNecessary.run(PerformRecoveryIfNecessary.java:59)
+	at org.neo4j.server.preflight.PreFlightTasks.run(PreFlightTasks.java:70)
+	at org.neo4j.server.AbstractNeoServer.runPreflightTasks(AbstractNeoServer.java:280)
+	at org.neo4j.server.AbstractNeoServer.start(AbstractNeoServer.java:160)
+	at org.neo4j.server.Bootstrapper.start(Bootstrapper.java:86)
+	at org.neo4j.server.Bootstrapper.main(Bootstrapper.java:49)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.StoreLockerLifecycleAdapter@1672bbb' was successfully initialized, but failed to start. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:497)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:104)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.run(InternalAbstractGraphDatabase.java:259)
+	... 10 more
+Caused by: org.neo4j.kernel.StoreLockException: Could not create lock file
+	at org.neo4j.kernel.StoreLocker.checkLock(StoreLocker.java:74)
+	at org.neo4j.kernel.StoreLockerLifecycleAdapter.start(StoreLockerLifecycleAdapter.java:40)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:491)
+	... 12 more
+9/27/13 12:33:27 AM org.neo4j.server.CommunityBootstrapper SEVERE: Failed to start Neo Server on port [7474]
+9/27/13 12:34:34 AM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 12:34:34 AM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+Detected incorrectly shut down database, performing recovery..
+00:34:34.547 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 12:34:38 AM org.neo4j.server.database.Database INFO: Successfully started database
+9/27/13 12:34:38 AM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+9/27/13 12:34:39 AM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+9/27/13 12:34:39 AM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+9/27/13 12:34:39 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+9/27/13 12:34:39 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+9/27/13 12:34:39 AM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+9/27/13 12:34:39 AM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+9/27/13 12:34:39 AM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+00:34:40.020 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+9/27/13 12:34:40 AM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+00:34:40.117 [main] INFO  org.mortbay.log - jetty-6.1.25
+00:34:40.226 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+00:34:41.463 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+00:34:41.576 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+9/27/13 12:34:41 AM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+9/27/13 12:34:48 AM org.neo4j.server.webadmin.rest.console.SessionFactoryImpl INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+9/27/13 12:36:20 AM org.neo4j.server.CommunityBootstrapper INFO: Neo4j Server shutdown initiated by kill signal
+00:36:20.717 [Thread-9] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+00:36:20.719 [Thread-9] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+9/27/13 1:00:46 AM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 1:00:47 AM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+Detected incorrectly shut down database, performing recovery..
+01:00:47.201 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 1:00:50 AM org.neo4j.server.database.Database INFO: Successfully started database
+9/27/13 1:00:50 AM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+9/27/13 1:00:50 AM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+9/27/13 1:00:50 AM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+9/27/13 1:00:50 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+9/27/13 1:00:50 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+9/27/13 1:00:50 AM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+9/27/13 1:00:50 AM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+9/27/13 1:00:51 AM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+01:00:51.130 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+9/27/13 1:00:51 AM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+01:00:51.227 [main] INFO  org.mortbay.log - jetty-6.1.25
+01:00:51.297 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+01:00:52.489 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+01:00:52.582 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+9/27/13 1:00:52 AM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+9/27/13 1:01:01 AM org.neo4j.server.webadmin.rest.console.SessionFactoryImpl INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+9/27/13 1:10:56 AM org.neo4j.server.CommunityBootstrapper INFO: Neo4j Server shutdown initiated by kill signal
+01:10:56.121 [Thread-9] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+01:10:56.123 [Thread-9] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+9/27/13 1:14:42 AM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 1:14:42 AM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+01:14:42.890 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 1:14:43 AM org.neo4j.server.database.Database INFO: Successfully started database
+9/27/13 1:14:43 AM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+9/27/13 1:14:44 AM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+9/27/13 1:14:44 AM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+9/27/13 1:14:44 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+9/27/13 1:14:44 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+9/27/13 1:14:44 AM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+9/27/13 1:14:44 AM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+9/27/13 1:14:44 AM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+01:14:44.962 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+9/27/13 1:14:44 AM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+01:14:45.034 [main] INFO  org.mortbay.log - jetty-6.1.25
+01:14:45.126 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+01:14:46.220 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+01:14:46.334 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+9/27/13 1:14:46 AM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+9/27/13 1:14:51 AM org.neo4j.server.webadmin.rest.console.SessionFactoryImpl INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+9/27/13 1:17:38 AM org.neo4j.server.CommunityBootstrapper INFO: Neo4j Server shutdown initiated by kill signal
+01:17:38.961 [Thread-8] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+01:17:38.962 [Thread-8] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.transaction.XaDataSourceManager@1d1e765' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:178)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:635)
+	at org.neo4j.server.database.CommunityDatabase.stop(CommunityDatabase.java:76)
+	at org.neo4j.server.AbstractNeoServer.stopDatabase(AbstractNeoServer.java:501)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:453)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:167)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource@462799' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.impl.transaction.XaDataSourceManager.stop(XaDataSourceManager.java:149)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 7 more
+Caused by: java.lang.RuntimeException: java.io.IOException: Logical log[data/WikiEx.db/nioneo_logical.log.1] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:72)
+	at org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource.stop(NeoStoreXaDataSource.java:301)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 10 more
+Caused by: java.io.IOException: Logical log[data/WikiEx.db/nioneo_logical.log.1] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.renameLogFileToRightVersion(XaLogicalLog.java:641)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.close(XaLogicalLog.java:709)
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:68)
+	... 12 more
+org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.extension.KernelExtensions@104c58e' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:178)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:635)
+	at org.neo4j.server.database.CommunityDatabase.stop(CommunityDatabase.java:76)
+	at org.neo4j.server.AbstractNeoServer.stopDatabase(AbstractNeoServer.java:501)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:453)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:167)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.index.lucene.LuceneKernelExtension@883f8f' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.extension.KernelExtensions.stop(KernelExtensions.java:119)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 7 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.index.impl.lucene.LuceneDataSource@1ddcb' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:530)
+	at org.neo4j.kernel.lifecycle.LifeSupport.remove(LifeSupport.java:330)
+	at org.neo4j.kernel.impl.transaction.XaDataSourceManager.unregisterDataSource(XaDataSourceManager.java:234)
+	at org.neo4j.index.lucene.LuceneKernelExtension.stop(LuceneKernelExtension.java:99)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 10 more
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: data/WikiEx.db/index/lucene.log.active (No such file or directory)
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:72)
+	at org.neo4j.index.impl.lucene.LuceneDataSource.stop(LuceneDataSource.java:307)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 15 more
+Caused by: java.io.FileNotFoundException: data/WikiEx.db/index/lucene.log.active (No such file or directory)
+	at java.io.RandomAccessFile.open(Native Method)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:233)
+	at org.neo4j.kernel.DefaultFileSystemAbstraction.open(DefaultFileSystemAbstraction.java:53)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.setActiveLog(XaLogicalLog.java:1480)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.close(XaLogicalLog.java:704)
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:68)
+	... 17 more
+9/27/13 1:27:50 AM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 1:27:50 AM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+Detected incorrectly shut down database, performing recovery..
+01:27:50.728 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 1:27:53 AM org.neo4j.server.database.Database INFO: Successfully started database
+9/27/13 1:27:53 AM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+9/27/13 1:27:53 AM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+9/27/13 1:27:54 AM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+9/27/13 1:27:54 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+9/27/13 1:27:54 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+9/27/13 1:27:54 AM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+9/27/13 1:27:54 AM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+9/27/13 1:27:54 AM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+01:27:54.636 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+9/27/13 1:27:54 AM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+01:27:54.725 [main] INFO  org.mortbay.log - jetty-6.1.25
+01:27:54.796 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+01:27:55.954 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+01:27:56.060 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+9/27/13 1:27:56 AM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+9/27/13 1:27:59 AM org.neo4j.server.webadmin.rest.console.SessionFactoryImpl INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+9/27/13 1:28:43 AM org.neo4j.server.CommunityBootstrapper INFO: Neo4j Server shutdown initiated by kill signal
+01:28:43.607 [Thread-9] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+01:28:43.611 [Thread-9] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+9/27/13 1:38:15 AM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 1:38:15 AM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+01:38:15.842 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 1:38:16 AM org.neo4j.server.database.Database INFO: Successfully started database
+9/27/13 1:38:16 AM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+9/27/13 1:38:17 AM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+9/27/13 1:38:17 AM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+9/27/13 1:38:17 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+9/27/13 1:38:17 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+9/27/13 1:38:17 AM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+9/27/13 1:38:17 AM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+9/27/13 1:38:17 AM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+01:38:17.876 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+9/27/13 1:38:17 AM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+01:38:17.950 [main] INFO  org.mortbay.log - jetty-6.1.25
+01:38:18.022 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+01:38:19.022 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+01:38:19.133 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+9/27/13 1:38:19 AM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+9/27/13 1:38:23 AM org.neo4j.server.webadmin.rest.console.SessionFactoryImpl INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+01:43:49.473 [Thread-8] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+01:43:49.474 [Thread-8] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.transaction.XaDataSourceManager@fe7a67' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:178)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:635)
+	at org.neo4j.server.database.CommunityDatabase.stop(CommunityDatabase.java:76)
+	at org.neo4j.server.AbstractNeoServer.stopDatabase(AbstractNeoServer.java:501)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:453)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:167)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource@38ebc3' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.impl.transaction.XaDataSourceManager.stop(XaDataSourceManager.java:149)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 7 more
+Caused by: java.lang.RuntimeException: java.io.IOException: Logical log[data/WikiEx.db/nioneo_logical.log.1] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:72)
+	at org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource.stop(NeoStoreXaDataSource.java:301)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 10 more
+Caused by: java.io.IOException: Logical log[data/WikiEx.db/nioneo_logical.log.1] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.renameLogFileToRightVersion(XaLogicalLog.java:641)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.close(XaLogicalLog.java:709)
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:68)
+	... 12 more
+org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.extension.KernelExtensions@2957a4' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:178)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:635)
+	at org.neo4j.server.database.CommunityDatabase.stop(CommunityDatabase.java:76)
+	at org.neo4j.server.AbstractNeoServer.stopDatabase(AbstractNeoServer.java:501)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:453)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:167)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.index.lucene.LuceneKernelExtension@1246bec' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.extension.KernelExtensions.stop(KernelExtensions.java:119)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 7 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.index.impl.lucene.LuceneDataSource@3f983f' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:530)
+	at org.neo4j.kernel.lifecycle.LifeSupport.remove(LifeSupport.java:330)
+	at org.neo4j.kernel.impl.transaction.XaDataSourceManager.unregisterDataSource(XaDataSourceManager.java:234)
+	at org.neo4j.index.lucene.LuceneKernelExtension.stop(LuceneKernelExtension.java:99)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 10 more
+Caused by: java.lang.RuntimeException: java.io.IOException: Logical log[data/WikiEx.db/index/lucene.log.1] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:72)
+	at org.neo4j.index.impl.lucene.LuceneDataSource.stop(LuceneDataSource.java:307)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 15 more
+Caused by: java.io.IOException: Logical log[data/WikiEx.db/index/lucene.log.1] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.renameLogFileToRightVersion(XaLogicalLog.java:641)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.close(XaLogicalLog.java:709)
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:68)
+	... 17 more
+9/27/13 1:43:52 AM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 1:43:52 AM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+01:43:53.042 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 1:43:53 AM org.neo4j.server.database.Database INFO: Successfully started database
+9/27/13 1:43:53 AM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+9/27/13 1:43:54 AM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+9/27/13 1:43:54 AM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+9/27/13 1:43:54 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+9/27/13 1:43:54 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+9/27/13 1:43:54 AM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+9/27/13 1:43:54 AM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+9/27/13 1:43:54 AM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+01:43:55.020 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+9/27/13 1:43:55 AM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+01:43:55.086 [main] INFO  org.mortbay.log - jetty-6.1.25
+01:43:55.159 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+01:43:56.336 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+01:43:56.447 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+9/27/13 1:43:56 AM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+9/27/13 1:44:00 AM org.neo4j.server.webadmin.rest.console.SessionFactoryImpl INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+9/27/13 1:47:01 AM org.neo4j.server.CommunityBootstrapper INFO: Neo4j Server shutdown initiated by kill signal
+01:47:01.687 [Thread-8] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+01:47:01.688 [Thread-8] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+9/27/13 1:47:05 AM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 1:47:05 AM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+01:47:05.767 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 1:47:07 AM org.neo4j.server.database.Database INFO: Successfully started database
+9/27/13 1:47:07 AM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+9/27/13 1:47:07 AM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+9/27/13 1:47:07 AM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+9/27/13 1:47:07 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+9/27/13 1:47:07 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+9/27/13 1:47:07 AM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+9/27/13 1:47:07 AM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+9/27/13 1:47:08 AM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+01:47:08.086 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+9/27/13 1:47:08 AM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+01:47:08.148 [main] INFO  org.mortbay.log - jetty-6.1.25
+01:47:08.219 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+01:47:09.329 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+01:47:09.430 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+9/27/13 1:47:09 AM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+9/27/13 1:47:14 AM org.neo4j.server.webadmin.rest.console.SessionFactoryImpl INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+01:53:46.357 [Thread-8] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+01:53:46.359 [Thread-8] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.transaction.XaDataSourceManager@277bd2' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:178)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:635)
+	at org.neo4j.server.database.CommunityDatabase.stop(CommunityDatabase.java:76)
+	at org.neo4j.server.AbstractNeoServer.stopDatabase(AbstractNeoServer.java:501)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:453)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:167)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource@639bf1' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.impl.transaction.XaDataSourceManager.stop(XaDataSourceManager.java:149)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 7 more
+Caused by: java.lang.RuntimeException: java.io.IOException: Logical log[data/WikiEx.db/nioneo_logical.log.2] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:72)
+	at org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource.stop(NeoStoreXaDataSource.java:301)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 10 more
+Caused by: java.io.IOException: Logical log[data/WikiEx.db/nioneo_logical.log.2] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.renameLogFileToRightVersion(XaLogicalLog.java:641)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.close(XaLogicalLog.java:709)
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:68)
+	... 12 more
+org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.extension.KernelExtensions@ced1ac' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:178)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:635)
+	at org.neo4j.server.database.CommunityDatabase.stop(CommunityDatabase.java:76)
+	at org.neo4j.server.AbstractNeoServer.stopDatabase(AbstractNeoServer.java:501)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:453)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:167)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.index.lucene.LuceneKernelExtension@c21095' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.extension.KernelExtensions.stop(KernelExtensions.java:119)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 7 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.index.impl.lucene.LuceneDataSource@f91c8f' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:530)
+	at org.neo4j.kernel.lifecycle.LifeSupport.remove(LifeSupport.java:330)
+	at org.neo4j.kernel.impl.transaction.XaDataSourceManager.unregisterDataSource(XaDataSourceManager.java:234)
+	at org.neo4j.index.lucene.LuceneKernelExtension.stop(LuceneKernelExtension.java:99)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 10 more
+Caused by: java.lang.RuntimeException: java.io.IOException: Logical log[data/WikiEx.db/index/lucene.log.1] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:72)
+	at org.neo4j.index.impl.lucene.LuceneDataSource.stop(LuceneDataSource.java:307)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 15 more
+Caused by: java.io.IOException: Logical log[data/WikiEx.db/index/lucene.log.1] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.renameLogFileToRightVersion(XaLogicalLog.java:641)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.close(XaLogicalLog.java:709)
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:68)
+	... 17 more
+9/27/13 1:53:48 AM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 1:53:49 AM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+01:53:49.270 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 1:53:50 AM org.neo4j.server.database.Database INFO: Successfully started database
+9/27/13 1:53:50 AM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+9/27/13 1:53:51 AM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+9/27/13 1:53:51 AM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+9/27/13 1:53:51 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+9/27/13 1:53:51 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+9/27/13 1:53:51 AM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+9/27/13 1:53:51 AM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+9/27/13 1:53:51 AM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+01:53:51.926 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+9/27/13 1:53:51 AM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+01:53:51.997 [main] INFO  org.mortbay.log - jetty-6.1.25
+01:53:52.067 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+01:53:53.152 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+01:53:53.264 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+9/27/13 1:53:53 AM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+9/27/13 1:53:58 AM org.neo4j.server.webadmin.rest.console.SessionFactoryImpl INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+9/27/13 6:59:30 AM org.neo4j.server.CommunityBootstrapper INFO: Neo4j Server shutdown initiated by kill signal
+06:59:30.680 [Thread-8] INFO  org.mortbay.log - Stopped SslSocketConnector@localhost:7473
+06:59:30.682 [Thread-8] INFO  org.mortbay.log - Stopped SelectChannelConnector@localhost:7474
+org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.transaction.XaDataSourceManager@19a1843' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:178)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:635)
+	at org.neo4j.server.database.CommunityDatabase.stop(CommunityDatabase.java:76)
+	at org.neo4j.server.AbstractNeoServer.stopDatabase(AbstractNeoServer.java:501)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:453)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:167)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource@670479' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.impl.transaction.XaDataSourceManager.stop(XaDataSourceManager.java:149)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 7 more
+Caused by: java.lang.RuntimeException: java.io.IOException: Logical log[data/WikiEx.db/nioneo_logical.log.2] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:72)
+	at org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource.stop(NeoStoreXaDataSource.java:301)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 10 more
+Caused by: java.io.IOException: Logical log[data/WikiEx.db/nioneo_logical.log.2] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.renameLogFileToRightVersion(XaLogicalLog.java:641)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.close(XaLogicalLog.java:709)
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:68)
+	... 12 more
+org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.extension.KernelExtensions@128482b' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.lifecycle.LifeSupport.shutdown(LifeSupport.java:178)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.shutdown(InternalAbstractGraphDatabase.java:635)
+	at org.neo4j.server.database.CommunityDatabase.stop(CommunityDatabase.java:76)
+	at org.neo4j.server.AbstractNeoServer.stopDatabase(AbstractNeoServer.java:501)
+	at org.neo4j.server.AbstractNeoServer.stop(AbstractNeoServer.java:453)
+	at org.neo4j.server.Bootstrapper$1.run(Bootstrapper.java:167)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.index.lucene.LuceneKernelExtension@17d7379' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport.stop(LifeSupport.java:146)
+	at org.neo4j.kernel.extension.KernelExtensions.stop(KernelExtensions.java:119)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 7 more
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.index.impl.lucene.LuceneDataSource@197886c' failed to stop. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:515)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.shutdown(LifeSupport.java:530)
+	at org.neo4j.kernel.lifecycle.LifeSupport.remove(LifeSupport.java:330)
+	at org.neo4j.kernel.impl.transaction.XaDataSourceManager.unregisterDataSource(XaDataSourceManager.java:234)
+	at org.neo4j.index.lucene.LuceneKernelExtension.stop(LuceneKernelExtension.java:99)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 10 more
+Caused by: java.lang.RuntimeException: java.io.IOException: Logical log[data/WikiEx.db/index/lucene.log.1] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:72)
+	at org.neo4j.index.impl.lucene.LuceneDataSource.stop(LuceneDataSource.java:307)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.stop(LifeSupport.java:511)
+	... 15 more
+Caused by: java.io.IOException: Logical log[data/WikiEx.db/index/lucene.log.1] not found
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.renameLogFileToRightVersion(XaLogicalLog.java:641)
+	at org.neo4j.kernel.impl.transaction.xaframework.XaLogicalLog.close(XaLogicalLog.java:709)
+	at org.neo4j.kernel.impl.transaction.xaframework.LogBackedXaDataSource.stop(LogBackedXaDataSource.java:68)
+	... 17 more
+9/27/13 6:59:34 AM org.neo4j.server.CommunityBootstrapper WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 6:59:35 AM org.neo4j.server.AbstractNeoServer INFO: Setting startup timeout to: 120000ms based on -1
+06:59:35.328 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+9/27/13 6:59:37 AM org.neo4j.server.database.Database INFO: Successfully started database
+9/27/13 6:59:37 AM org.neo4j.server.AbstractNeoServer INFO: Starting Neo Server on port [7474] with [40] threads available
+9/27/13 6:59:37 AM org.neo4j.server.AbstractNeoServer INFO: Enabling HTTPS on port [7473]
+9/27/13 6:59:38 AM org.neo4j.server.modules.DiscoveryModule INFO: Mounted discovery module at [/]
+9/27/13 6:59:38 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "CypherPlugin"
+9/27/13 6:59:38 AM org.neo4j.server.plugins.PluginManager INFO: Loaded server plugin "GremlinPlugin"
+9/27/13 6:59:38 AM org.neo4j.server.modules.RESTApiModule INFO: Mounted REST API at [/db/data/]
+9/27/13 6:59:38 AM org.neo4j.server.modules.ManagementApiModule INFO: Mounted management API at [/db/manage/]
+9/27/13 6:59:38 AM org.neo4j.server.modules.WebAdminModule INFO: Mounted webadmin at [/webadmin]
+06:59:38.516 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+9/27/13 6:59:38 AM org.neo4j.server.web.Jetty6WebServer INFO: Mounting static content at [/webadmin] from [webadmin-html]
+06:59:38.582 [main] INFO  org.mortbay.log - jetty-6.1.25
+06:59:38.676 [main] INFO  org.mortbay.log - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+06:59:39.934 [main] INFO  org.mortbay.log - Started SelectChannelConnector@localhost:7474
+06:59:40.043 [main] INFO  org.mortbay.log - Started SslSocketConnector@localhost:7473
+9/27/13 6:59:40 AM org.neo4j.server.AbstractNeoServer INFO: Server started on [http://localhost:7474/]
+9/27/13 6:59:49 AM org.neo4j.server.webadmin.rest.console.SessionFactoryImpl INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+

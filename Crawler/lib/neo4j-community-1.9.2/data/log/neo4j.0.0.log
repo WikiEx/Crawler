@@ -1,0 +1,518 @@
+Sep 21, 2013 11:53:48 AM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+Sep 21, 2013 11:53:49 AM org.neo4j.server.logging.Logger log
+INFO: Setting startup timeout to: 120000ms based on -1
+Sep 21, 2013 11:53:53 AM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Sep 21, 2013 11:53:53 AM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [40] threads available
+Sep 21, 2013 11:53:53 AM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Sep 21, 2013 11:53:53 AM org.neo4j.server.logging.Logger log
+INFO: No SSL certificate found, generating a self-signed certificate..
+Sep 21, 2013 11:53:54 AM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Sep 21, 2013 11:53:54 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Sep 21, 2013 11:53:54 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Sep 21, 2013 11:53:54 AM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Sep 21, 2013 11:53:54 AM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Sep 21, 2013 11:53:54 AM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Sep 21, 2013 11:53:54 AM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Sep 21, 2013 11:53:55 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 21, 2013 11:53:55 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 21, 2013 11:53:55 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 21, 2013 11:53:56 AM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Sep 21, 2013 11:54:07 AM org.neo4j.server.logging.Logger log
+INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+Sep 21, 2013 11:55:04 AM org.neo4j.server.logging.Logger log
+INFO: Neo4j Server shutdown initiated by kill signal
+Sep 21, 2013 11:55:55 AM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+Sep 21, 2013 11:55:55 AM org.neo4j.server.logging.Logger log
+INFO: Setting startup timeout to: 120000ms based on -1
+Sep 21, 2013 11:55:57 AM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Sep 21, 2013 11:55:57 AM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [40] threads available
+Sep 21, 2013 11:55:57 AM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Sep 21, 2013 11:55:58 AM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Sep 21, 2013 11:55:58 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Sep 21, 2013 11:55:58 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Sep 21, 2013 11:55:58 AM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Sep 21, 2013 11:55:58 AM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Sep 21, 2013 11:55:58 AM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Sep 21, 2013 11:55:58 AM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Sep 21, 2013 11:55:58 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 21, 2013 11:55:59 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 21, 2013 11:55:59 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 21, 2013 11:56:00 AM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Sep 21, 2013 11:56:07 AM org.neo4j.server.logging.Logger log
+INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+Sep 26, 2013 11:56:45 PM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+Sep 26, 2013 11:56:45 PM org.neo4j.server.logging.Logger log
+INFO: Setting startup timeout to: 120000ms based on -1
+Sep 26, 2013 11:56:50 PM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Sep 26, 2013 11:56:50 PM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [40] threads available
+Sep 26, 2013 11:56:50 PM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Sep 26, 2013 11:56:51 PM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Sep 26, 2013 11:56:51 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Sep 26, 2013 11:56:51 PM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Sep 26, 2013 11:56:51 PM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Sep 26, 2013 11:56:51 PM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Sep 26, 2013 11:56:51 PM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Sep 26, 2013 11:56:52 PM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Sep 26, 2013 11:56:52 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 26, 2013 11:56:52 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 26, 2013 11:56:53 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 26, 2013 11:56:53 PM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Sep 26, 2013 11:56:58 PM org.neo4j.server.logging.Logger log
+INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+Sep 26, 2013 11:59:03 PM org.neo4j.server.logging.Logger log
+INFO: Neo4j Server shutdown initiated by kill signal
+Sep 27, 2013 12:33:14 AM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+Sep 27, 2013 12:33:15 AM org.neo4j.server.logging.Logger log
+INFO: Setting startup timeout to: 120000ms based on -1
+Sep 27, 2013 12:33:16 AM org.neo4j.server.logging.Logger log
+SEVERE: 
+java.lang.RuntimeException: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.StoreLockerLifecycleAdapter@ca3783' was successfully initialized, but failed to start. Please see attached cause exception.
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.run(InternalAbstractGraphDatabase.java:281)
+	at org.neo4j.kernel.EmbeddedGraphDatabase.<init>(EmbeddedGraphDatabase.java:106)
+	at org.neo4j.graphdb.factory.GraphDatabaseFactory$1.newDatabase(GraphDatabaseFactory.java:88)
+	at org.neo4j.graphdb.factory.GraphDatabaseBuilder.newGraphDatabase(GraphDatabaseBuilder.java:207)
+	at org.neo4j.kernel.impl.recovery.StoreRecoverer.recover(StoreRecoverer.java:114)
+	at org.neo4j.server.preflight.PerformRecoveryIfNecessary.run(PerformRecoveryIfNecessary.java:59)
+	at org.neo4j.server.preflight.PreFlightTasks.run(PreFlightTasks.java:70)
+	at org.neo4j.server.AbstractNeoServer.runPreflightTasks(AbstractNeoServer.java:280)
+	at org.neo4j.server.AbstractNeoServer.start(AbstractNeoServer.java:160)
+	at org.neo4j.server.Bootstrapper.start(Bootstrapper.java:86)
+	at org.neo4j.server.Bootstrapper.main(Bootstrapper.java:49)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.StoreLockerLifecycleAdapter@ca3783' was successfully initialized, but failed to start. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:497)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:104)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.run(InternalAbstractGraphDatabase.java:259)
+	... 10 more
+Caused by: org.neo4j.kernel.StoreLockException: Could not create lock file
+	at org.neo4j.kernel.StoreLocker.checkLock(StoreLocker.java:74)
+	at org.neo4j.kernel.StoreLockerLifecycleAdapter.start(StoreLockerLifecycleAdapter.java:40)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:491)
+	... 12 more
+Sep 27, 2013 12:33:16 AM org.neo4j.server.logging.Logger log
+SEVERE: Failed to start Neo Server on port [7474]
+Sep 27, 2013 12:33:26 AM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+Sep 27, 2013 12:33:26 AM org.neo4j.server.logging.Logger log
+INFO: Setting startup timeout to: 120000ms based on -1
+Sep 27, 2013 12:33:27 AM org.neo4j.server.logging.Logger log
+SEVERE: 
+java.lang.RuntimeException: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.StoreLockerLifecycleAdapter@1672bbb' was successfully initialized, but failed to start. Please see attached cause exception.
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.run(InternalAbstractGraphDatabase.java:281)
+	at org.neo4j.kernel.EmbeddedGraphDatabase.<init>(EmbeddedGraphDatabase.java:106)
+	at org.neo4j.graphdb.factory.GraphDatabaseFactory$1.newDatabase(GraphDatabaseFactory.java:88)
+	at org.neo4j.graphdb.factory.GraphDatabaseBuilder.newGraphDatabase(GraphDatabaseBuilder.java:207)
+	at org.neo4j.kernel.impl.recovery.StoreRecoverer.recover(StoreRecoverer.java:114)
+	at org.neo4j.server.preflight.PerformRecoveryIfNecessary.run(PerformRecoveryIfNecessary.java:59)
+	at org.neo4j.server.preflight.PreFlightTasks.run(PreFlightTasks.java:70)
+	at org.neo4j.server.AbstractNeoServer.runPreflightTasks(AbstractNeoServer.java:280)
+	at org.neo4j.server.AbstractNeoServer.start(AbstractNeoServer.java:160)
+	at org.neo4j.server.Bootstrapper.start(Bootstrapper.java:86)
+	at org.neo4j.server.Bootstrapper.main(Bootstrapper.java:49)
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.StoreLockerLifecycleAdapter@1672bbb' was successfully initialized, but failed to start. Please see attached cause exception.
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:497)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:104)
+	at org.neo4j.kernel.InternalAbstractGraphDatabase.run(InternalAbstractGraphDatabase.java:259)
+	... 10 more
+Caused by: org.neo4j.kernel.StoreLockException: Could not create lock file
+	at org.neo4j.kernel.StoreLocker.checkLock(StoreLocker.java:74)
+	at org.neo4j.kernel.StoreLockerLifecycleAdapter.start(StoreLockerLifecycleAdapter.java:40)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:491)
+	... 12 more
+Sep 27, 2013 12:33:27 AM org.neo4j.server.logging.Logger log
+SEVERE: Failed to start Neo Server on port [7474]
+Sep 27, 2013 12:34:34 AM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+Sep 27, 2013 12:34:34 AM org.neo4j.server.logging.Logger log
+INFO: Setting startup timeout to: 120000ms based on -1
+Sep 27, 2013 12:34:38 AM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Sep 27, 2013 12:34:38 AM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [40] threads available
+Sep 27, 2013 12:34:39 AM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Sep 27, 2013 12:34:39 AM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Sep 27, 2013 12:34:39 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Sep 27, 2013 12:34:39 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Sep 27, 2013 12:34:39 AM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Sep 27, 2013 12:34:39 AM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Sep 27, 2013 12:34:39 AM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Sep 27, 2013 12:34:40 AM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Sep 27, 2013 12:34:40 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 12:34:40 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 12:34:41 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 12:34:41 AM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Sep 27, 2013 12:34:48 AM org.neo4j.server.logging.Logger log
+INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+Sep 27, 2013 12:36:20 AM org.neo4j.server.logging.Logger log
+INFO: Neo4j Server shutdown initiated by kill signal
+Sep 27, 2013 1:00:46 AM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+Sep 27, 2013 1:00:47 AM org.neo4j.server.logging.Logger log
+INFO: Setting startup timeout to: 120000ms based on -1
+Sep 27, 2013 1:00:50 AM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Sep 27, 2013 1:00:50 AM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [40] threads available
+Sep 27, 2013 1:00:50 AM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Sep 27, 2013 1:00:50 AM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Sep 27, 2013 1:00:50 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Sep 27, 2013 1:00:50 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Sep 27, 2013 1:00:50 AM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Sep 27, 2013 1:00:50 AM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Sep 27, 2013 1:00:51 AM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Sep 27, 2013 1:00:51 AM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Sep 27, 2013 1:00:51 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:00:52 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:00:52 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:00:52 AM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Sep 27, 2013 1:01:01 AM org.neo4j.server.logging.Logger log
+INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+Sep 27, 2013 1:10:56 AM org.neo4j.server.logging.Logger log
+INFO: Neo4j Server shutdown initiated by kill signal
+Sep 27, 2013 1:14:42 AM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+Sep 27, 2013 1:14:42 AM org.neo4j.server.logging.Logger log
+INFO: Setting startup timeout to: 120000ms based on -1
+Sep 27, 2013 1:14:43 AM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Sep 27, 2013 1:14:43 AM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [40] threads available
+Sep 27, 2013 1:14:44 AM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Sep 27, 2013 1:14:44 AM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Sep 27, 2013 1:14:44 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Sep 27, 2013 1:14:44 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Sep 27, 2013 1:14:44 AM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Sep 27, 2013 1:14:44 AM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Sep 27, 2013 1:14:44 AM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Sep 27, 2013 1:14:44 AM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Sep 27, 2013 1:14:45 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:14:45 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:14:46 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:14:46 AM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Sep 27, 2013 1:14:51 AM org.neo4j.server.logging.Logger log
+INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+Sep 27, 2013 1:27:50 AM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+Sep 27, 2013 1:27:50 AM org.neo4j.server.logging.Logger log
+INFO: Setting startup timeout to: 120000ms based on -1
+Sep 27, 2013 1:27:53 AM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Sep 27, 2013 1:27:53 AM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [40] threads available
+Sep 27, 2013 1:27:53 AM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Sep 27, 2013 1:27:54 AM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Sep 27, 2013 1:27:54 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Sep 27, 2013 1:27:54 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Sep 27, 2013 1:27:54 AM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Sep 27, 2013 1:27:54 AM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Sep 27, 2013 1:27:54 AM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Sep 27, 2013 1:27:54 AM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Sep 27, 2013 1:27:54 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:27:55 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:27:55 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:27:56 AM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Sep 27, 2013 1:27:59 AM org.neo4j.server.logging.Logger log
+INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+Sep 27, 2013 1:28:43 AM org.neo4j.server.logging.Logger log
+INFO: Neo4j Server shutdown initiated by kill signal
+Sep 27, 2013 1:38:15 AM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+Sep 27, 2013 1:38:15 AM org.neo4j.server.logging.Logger log
+INFO: Setting startup timeout to: 120000ms based on -1
+Sep 27, 2013 1:38:16 AM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Sep 27, 2013 1:38:16 AM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [40] threads available
+Sep 27, 2013 1:38:17 AM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Sep 27, 2013 1:38:17 AM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Sep 27, 2013 1:38:17 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Sep 27, 2013 1:38:17 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Sep 27, 2013 1:38:17 AM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Sep 27, 2013 1:38:17 AM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Sep 27, 2013 1:38:17 AM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Sep 27, 2013 1:38:17 AM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Sep 27, 2013 1:38:18 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:38:18 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:38:18 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:38:19 AM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Sep 27, 2013 1:38:23 AM org.neo4j.server.logging.Logger log
+INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+Sep 27, 2013 1:43:52 AM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+Sep 27, 2013 1:43:52 AM org.neo4j.server.logging.Logger log
+INFO: Setting startup timeout to: 120000ms based on -1
+Sep 27, 2013 1:43:53 AM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Sep 27, 2013 1:43:53 AM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [40] threads available
+Sep 27, 2013 1:43:54 AM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Sep 27, 2013 1:43:54 AM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Sep 27, 2013 1:43:54 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Sep 27, 2013 1:43:54 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Sep 27, 2013 1:43:54 AM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Sep 27, 2013 1:43:54 AM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Sep 27, 2013 1:43:54 AM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Sep 27, 2013 1:43:55 AM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Sep 27, 2013 1:43:55 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:43:55 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:43:56 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:43:56 AM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Sep 27, 2013 1:44:00 AM org.neo4j.server.logging.Logger log
+INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+Sep 27, 2013 1:47:05 AM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+Sep 27, 2013 1:47:05 AM org.neo4j.server.logging.Logger log
+INFO: Setting startup timeout to: 120000ms based on -1
+Sep 27, 2013 1:47:07 AM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Sep 27, 2013 1:47:07 AM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [40] threads available
+Sep 27, 2013 1:47:07 AM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Sep 27, 2013 1:47:07 AM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Sep 27, 2013 1:47:07 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Sep 27, 2013 1:47:07 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Sep 27, 2013 1:47:07 AM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Sep 27, 2013 1:47:07 AM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Sep 27, 2013 1:47:08 AM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Sep 27, 2013 1:47:08 AM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Sep 27, 2013 1:47:08 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:47:08 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:47:09 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:47:09 AM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Sep 27, 2013 1:47:14 AM org.neo4j.server.logging.Logger log
+INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+Sep 27, 2013 1:53:48 AM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+Sep 27, 2013 1:53:49 AM org.neo4j.server.logging.Logger log
+INFO: Setting startup timeout to: 120000ms based on -1
+Sep 27, 2013 1:53:50 AM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Sep 27, 2013 1:53:50 AM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [40] threads available
+Sep 27, 2013 1:53:51 AM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Sep 27, 2013 1:53:51 AM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Sep 27, 2013 1:53:51 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Sep 27, 2013 1:53:51 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Sep 27, 2013 1:53:51 AM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Sep 27, 2013 1:53:51 AM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Sep 27, 2013 1:53:51 AM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Sep 27, 2013 1:53:51 AM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Sep 27, 2013 1:53:52 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:53:52 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:53:53 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 1:53:53 AM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Sep 27, 2013 1:53:58 AM org.neo4j.server.logging.Logger log
+INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
+Sep 27, 2013 6:59:30 AM org.neo4j.server.logging.Logger log
+INFO: Neo4j Server shutdown initiated by kill signal
+Sep 27, 2013 6:59:34 AM org.neo4j.server.logging.Logger log
+WARNING: WARNING! You are using an unsupported Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+Sep 27, 2013 6:59:35 AM org.neo4j.server.logging.Logger log
+INFO: Setting startup timeout to: 120000ms based on -1
+Sep 27, 2013 6:59:37 AM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Sep 27, 2013 6:59:37 AM org.neo4j.server.logging.Logger log
+INFO: Starting Neo Server on port [7474] with [40] threads available
+Sep 27, 2013 6:59:37 AM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port [7473]
+Sep 27, 2013 6:59:38 AM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Sep 27, 2013 6:59:38 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "CypherPlugin"
+Sep 27, 2013 6:59:38 AM org.neo4j.server.logging.Logger log
+INFO: Loaded server plugin "GremlinPlugin"
+Sep 27, 2013 6:59:38 AM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Sep 27, 2013 6:59:38 AM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Sep 27, 2013 6:59:38 AM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Sep 27, 2013 6:59:38 AM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Sep 27, 2013 6:59:38 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 6:59:39 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 6:59:39 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Sep 27, 2013 6:59:40 AM org.neo4j.server.logging.Logger log
+INFO: Server started on [http://localhost:7474/]
+Sep 27, 2013 6:59:49 AM org.neo4j.server.logging.Logger log
+INFO: Available console sessions: SHELL: class org.neo4j.server.webadmin.console.ShellSessionCreator
+CYPHER: class org.neo4j.server.webadmin.console.CypherSessionCreator
+GREMLIN: class org.neo4j.server.webadmin.console.GremlinSessionCreator
+
